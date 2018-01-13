@@ -1,0 +1,68 @@
+"vim-translate.txt" Translate text in vim
+
+==================================================================================================
+CONTENTS                                                                  *vim-translate-contents*
+
+
+  1. Intro ........................................... |Vim-TranslateIntro|
+  2. Usage ........................................... |Vim-TranslateUsage|
+  3. Configuration ................................... |Vim-TranslateConfig|
+  4. License ......................................... |Vim-TranslateLicense|
+  5. Bugs ............................................ |Vim-TranslateBugs|
+  6. Contributing .................................... |Vim-TranslateContributing|
+  7. Changelog ....................................... |Vim-TranslateChangelog|
+  8. Credits ......................................... |Vim-TranslateCredits|
+
+==================================================================================================
+1. Intro                                                                      *Vim-TranslateIntro*
+
+This is a very simple vim plugin for translating text within vim.
+
+==================================================================================================
+2. Usage                                                                      *Vim-TranslateUsage*
+
+After successful installation, selecting text in visual mode and pressing <leader>t will translate
+the selected text and display it in the gutter.
+
+==================================================================================================
+3. Configuration                                                             *Vim-TranslateConfig*
+
+The default value to run the translator is <leader>t
+this can be changed at the bottom of the plugin/vim-translate.vim file
+
+The default language to translate to is set to "en" for English. This can be changed in the 
+plugin/vim-translate.vim file and can be changed to any language abbreviation supported by
+google translate.
+
+==================================================================================================
+4. License                                                                  *Vim-TranslateLicense*
+
+MIT license
+
+==================================================================================================
+5. Bugs                                                                        *Vim-TranslateBugs*
+
+If you find a bug please post it on the issue tracker:
+http://github.com/RyanJennings1/vim-translate/issues
+
+==================================================================================================
+6. Contributing                                                        *Vim-TranslateContributing*
+
+Think you can make this plugin better? Awesome. Fork it on Github and send a pull request.
+
+Github: http://github.com/RyanJennings1/vim-translate
+
+==================================================================================================
+7. Changelog                                                              *Vim-TranslateChangelog*
+
+v1.0.0
+  * Initial stable release
+
+==================================================================================================
+8. Credits
+
+The docs and structuring for the project were heavily influenced by gundo.vim and helped the author get started.
+The python translation module from https://github.com/ssut/py-googletrans does all the heavy lifting of dealing with the google translate api.
+
+==================================================================================================
+
